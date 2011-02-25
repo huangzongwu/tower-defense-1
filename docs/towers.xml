@@ -5,67 +5,75 @@
       <name>Stone</name>
       <damage>1</damage>
       <speed>1</speed>
-      <cost>1</cost>
-	  <range>3</range>
+      <cost>2</cost>
+      <range>4</range>
       <spriteImageName>stoneTowerLvl1</spriteImageName>
+      <sound>stoneTowerLvl1</sound>
     </level>
     <level number="2">
       <name>Marble</name>
-      <damage>2</damage>
-      <speed>2</speed>
-      <cost>2</cost>
-	  <range>3</range>
+      <damage>4</damage>
+      <speed>3</speed>
+      <cost>7</cost>
+      <range>7</range>
       <spriteImageName>stoneTowerLvl2</spriteImageName>
+      <sound>stoneTowerLvl2</sound>
     </level>
     <level number="3">
       <name>Obsidian</name>
-      <damage>3</damage>
+      <damage>9</damage>
       <speed>1</speed>
-      <cost>5</cost>
-	  <range>3</range>
+      <cost>10</cost>
+      <range>5</range>
       <spriteImageName>stoneTowerLvl3</spriteImageName>
+      <sound>stoneTowerLvl3</sound>
     </level>
     <level number="4">
       <name>Pumice</name>
-      <damage>1.5</damage>
-      <speed>3</speed>
-      <cost>5</cost>
-	  <range>3</range>
+      <damage>2</damage>
+      <speed>8</speed>
+      <cost>7</cost>
+      <range>5</range>
       <spriteImageName>stoneTowerLvl4</spriteImageName>
+      <sound>stoneTowerLvl4</sound>
     </level>
   </tower>
   <tower type="fire">
     <level number="1">
       <name>Fire</name>
       <damage>1</damage>
-      <speed>1</speed>
-      <cost>1</cost>
-	  <range>3</range>
+      <speed>3</speed>
+      <cost>3</cost>
+      <range>2</range>
       <spriteImageName>fireTowerLvl1</spriteImageName>
+      <sound>fireTowerLvl1</sound>
     </level>
     <level number="2">
       <name>Flame</name>
-      <damage>1</damage>
+      <damage>5</damage>
       <speed>3</speed>
-      <cost>2</cost>
-	  <range>3</range>
+      <cost>8</cost>
+      <range>6</range>
       <spriteImageName>fireTowerLvl2</spriteImageName>
+      <sound>fireTowerLvl2</sound>
     </level>
     <level number="3">
       <name>Molten</name>
-      <damage>3</damage>
+      <damage>9</damage>
       <speed>1</speed>
-      <cost>5</cost>
-	  <range>3</range>
+      <cost>10</cost>
+      <range>4</range>
       <spriteImageName>fireTowerLvl3</spriteImageName>
+      <sound>fireTowerLvl3</sound>
     </level>
     <level number="4">
       <name>Flame Thrower</name>
       <damage>2</damage>
-      <speed>3</speed>
-      <cost>6</cost>
-	  <range>3</range>
+      <speed>8</speed>
+      <cost>8</cost>
+      <range>9</range>
       <spriteImageName>fireTowerLvl4</spriteImageName>
+      <sound>fireTowerLvl4</sound>
     </level>
   </tower>
   <tower type="lightening">
@@ -73,67 +81,75 @@
       <name>Shock</name>
       <damage>1</damage>
       <speed>1</speed>
-      <cost>1</cost>
-	  <range>3</range>
+      <cost>2</cost>
+      <range>4</range>
       <spriteImageName>lighteningTowerLvl1</spriteImageName>
+      <sound>lighteningTowerLvl1</sound>
     </level>
     <level number="2">
       <name>Burst</name>
-      <damage>2</damage>
+      <damage>5</damage>
       <speed>2</speed>
-      <cost>2</cost>
-	  <range>3</range>
+      <cost>7</cost>
+      <range>7</range>
       <spriteImageName>lighteningTowerLvl2</spriteImageName>
+      <sound>lighteningTowerLvl2</sound>
     </level>
     <level number="3">
       <name>Lightening</name>
-      <damage>3</damage>
+      <damage>10</damage>
       <speed>1</speed>
-      <cost>5</cost>
-	  <range>3</range>
+      <cost>11</cost>
+      <range>3</range>
       <spriteImageName>lighteningTowerLvl3</spriteImageName>
+      <sound>lighteningTowerLvl3</sound>
     </level>
     <level number="4">
       <name>Beam</name>
       <damage>1</damage>
-      <speed>-1</speed> <!-- constant stream -->
-      <cost>5</cost>
-	  <range>3</range>
+      <speed>10</speed> <!-- constant stream -->
+      <cost>8</cost>
+      <range>9</range>
       <spriteImageName>lighteningTowerLvl4</spriteImageName>
+      <sound>lighteningTowerLvl4</sound>
     </level>
   </tower>
   <tower type="ice">
     <level number="1">
       <name>Snow</name>
       <damage>1</damage>
-      <speed>1</speed>
-      <cost>1</cost>
-	  <range>3</range>
+      <speed>2</speed>
+      <cost>2</cost>
+      <range>3</range>
       <spriteImageName>iceTowerLvl1</spriteImageName>
+      <sound>iceTowerLvl1</sound>
     </level>
     <level number="2">
       <name>Ice</name>
-      <damage>2</damage>
-      <speed>1.5</speed>
-      <cost>2</cost>
-	  <range>3</range>
+      <damage>5</damage>
+      <speed>4</speed>
+      <cost>8</cost>
+      <range>6</range>
       <spriteImageName>iceTowerLvl2</spriteImageName>
+      <sound>iceTowerLvl2</sound>
     </level>
     <level number="3">
       <name>Glacier</name>
-      <damage>3</damage>
+      <damage>10</damage>
       <speed>1</speed>
-      <cost>5</cost>
-	  <range>3</range>
+      <cost>11</cost>
+      <range>3</range>
       <spriteImageName>iceTowerLvl3</spriteImageName>
+      <sound>iceTowerLvl3</sound>
     </level>
     <level number="4">
       <name>Icicle</name>
-      <damage>1.5</damage>
-      <speed>3</speed>
-      <cost>5</cost>
-	  <range>3</range>
+      <damage>2</damage>
+      <speed>7</speed>
+      <cost>7</cost>
+      <range>9</range>
       <spriteImageName>iceTowerLvl4</spriteImageName>
+      <sound>iceTowerLvl4</sound>
     </level>
   </tower>
 </towers>

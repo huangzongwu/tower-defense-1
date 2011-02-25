@@ -5,7 +5,7 @@
     <damage>1</damage>
     <speed>3</speed>
     <hp>3</hp>
-	<worth>1</worth>
+    <worth>1</worth>
     <resistence type="stone">5</resistence>
     <resistence type="fire">4</resistence>
     <resistence type="lightening">3</resistence>
@@ -18,8 +18,8 @@
     <name>Wolf</name>
     <damage>2</damage>
     <speed>5</speed>
-    <hp>4</hp>
-	<worth>1</worth>
+    <hp>5</hp>
+    <worth>3</worth>
     <resistence type="stone">5</resistence>
     <resistence type="fire">4</resistence>
     <resistence type="lightening">3</resistence>
@@ -28,18 +28,60 @@
     <deathSound>wolfDeath</deathSound>
     <spriteImageName>wolf</spriteImageName>
   </enemy>
+  <enemy>
+    <name>Goblin</name>
+    <damage>4</damage>
+    <speed>10</speed>
+    <hp>4</hp>
+    <worth>5</worth>
+    <resistence type="stone">0</resistence>
+    <resistence type="fire">0</resistence>
+    <resistence type="lightening">6</resistence>
+    <resistence type="ice">3</resistence>
+    <attackSound>goblinAttack</attackSound>
+    <deathSound>goblinDeath</deathSound>
+    <spriteImageName>goblin</spriteImageName>
+  </enemy>
+  <enemy>
+    <name>Troll</name>
+    <damage>7</damage>
+    <speed>8</speed>
+    <hp>7</hp>
+    <worth>5</worth>
+    <resistence type="stone">4</resistence>
+    <resistence type="fire">6</resistence>
+    <resistence type="lightening">6</resistence>
+    <resistence type="ice">7</resistence>
+    <attackSound>trollAttack</attackSound>
+    <deathSound>trollDeath</deathSound>
+    <spriteImageName>troll</spriteImageName>
+  </enemy>
+  <enemy>
+    <name>Ogre</name>
+    <damage>10</damage>
+    <speed>2</speed>
+    <hp>10</hp>
+    <worth>10</worth>
+    <resistence type="stone">7</resistence>
+    <resistence type="fire">6</resistence>
+    <resistence type="lightening">8</resistence>
+    <resistence type="ice">10</resistence>
+    <attackSound>ogreAttack</attackSound>
+    <deathSound>ogreDeath</deathSound>
+    <spriteImageName>ogre</spriteImageName>
+  </enemy>
   <!-- <enemy>
-      <name></name>
-      <damage></damage>
-      <speed></speed>
-      <hp></hp>
-	  <worth></worth>
-      <resistence type="stone"></resistence>
-      <resistence type="fire"></resistence>
-      <resistence type="lightening"></resistence>
-      <resistence type="ice"></resistence>
-      <attackSound></attackSound>
-      <deathSound></deathSound>
-      <spriteImageName></spriteImageName>
-    </enemy> -->
+    <name></name>
+    <damage></damage>
+    <speed></speed>
+    <hp></hp>
+    <worth></worth>
+    <resistence type="stone"></resistence>
+    <resistence type="fire"></resistence>
+    <resistence type="lightening"></resistence>
+    <resistence type="ice"></resistence>
+    <attackSound></attackSound>
+    <deathSound></deathSound>
+    <spriteImageName></spriteImageName>
+  </enemy> -->
 </enemys>
